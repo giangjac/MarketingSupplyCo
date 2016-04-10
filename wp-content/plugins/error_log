@@ -1,0 +1,5 @@
+[31-Jan-2016 20:28:10 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/sbliemaster44/public_html/wp-content/plugins/hello.php on line 60
+[01-Feb-2016 02:26:46 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/sbliemaster44/public_html/wp-content/plugins/hello.php on line 60
+[20-Feb-2016 20:40:51 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/sbliemaster44/public_html/wp-content/plugins/hello.php on line 60
+[15-Mar-2016 06:07:56 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/sbliemaster44/public_html/wp-content/plugins/hello.php on line 60
+[15-Mar-2016 06:08:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/sbliemaster44/public_html/wp-content/plugins/hello.php on line 60

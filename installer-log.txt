@@ -1,0 +1,152 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 07:36:54
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	1.1.6
+PHP:		7.0.0 | SAPI: apache2handler
+SERVER:		Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/7.0.0 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0
+DOC ROOT:	/Users/Jacky/wordpress/marketingsupply.co
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20160322_metricsdrivenmarketingexpert_570a8d472bf179466160410172839
+REQUEST URL:	http://localhost/marketingsupply.co/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20160322_metricsdrivenmarketingexpert_570a8d472bf179466160410172839_archive.zip
+SIZE:	5.7MB
+ZIP:	Enabled (ZipArchive Support)
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1229
+    [filename] => /Users/Jacky/wordpress/marketingsupply.co/20160322_metricsdrivenmarketingexpert_570a8d472bf179466160410172839_archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  '/Users/Jacky/wordpress/marketingsupply.co/installer-data.sql'
+- WP-CONFIG: '/Users/Jacky/wordpress/marketingsupply.co/wp-config.php'
+
+ARCHIVE RUNTIME: 1.3860 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	5.5.42
+TIMEOUT:	5000
+MAXPACK:	1048576
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	removed (20) tables
+QUERIES RAN:	5642
+
+wp_commentmeta: (0)
+wp_comments: (6)
+wp_duplicator_packages: (1)
+wp_fca_eoi_activity: (0)
+wp_links: (7)
+wp_options: (2381)
+wp_postmeta: (2409)
+wp_posts: (426)
+wp_term_relationships: (157)
+wp_term_taxonomy: (56)
+wp_termmeta: (0)
+wp_terms: (56)
+wp_usermeta: (116)
+wp_users: (4)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_woocommerce_termmeta: (0)
+Removed '2077' cache/transient rows
+
+SECTION RUNTIME: 2.1175 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 07:36:57 - TOTAL RUNTIME: 3.5989 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 07:37:17
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (6)
+wp_duplicator_packages^ (0)
+wp_fca_eoi_activity^ (0)
+wp_links~ (7)
+wp_options~ (302)
+wp_postmeta~ (2409)
+wp_posts~ (426)
+wp_term_relationships~ (157)
+wp_term_taxonomy~ (56)
+wp_termmeta^ (0)
+wp_terms~ (56)
+wp_usermeta~ (116)
+wp_users~ (4)
+wp_woocommerce_attribute_taxonomies^ (0)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_order_itemmeta^ (0)
+wp_woocommerce_order_items^ (0)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_woocommerce_termmeta^ (0)
+--------------------------------------
+SEARCH1:	'http://www.marketingsupply.co' 
+REPLACE1:	'http://localhost:8888/marketingsupply.co' 
+SEARCH2:	'/home/sbliemaster44/public_html/' 
+REPLACE2:	'/Users/Jacky/wordpress/marketingsupply.co/' 
+SCANNED:	Tables:21 | Rows:3539 | Cells:22358 
+UPDATED:	Tables:1 | Rows:422 |Cells:424 
+ERRORS:		0 
+RUNTIME:	1.247700 sec
+
+********************************************************************************
+START FINAL CLEANUP: 07:37:19
+********************************************************************************
+NEW WP-ADMIN USER: New username 'giangjac' was created successfully 
+ 
+UPDATE `wp_blogs` SET domain = 'localhost' WHERE domain = 'www.marketingsupply.co'
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+WP-CONFIG WARNING: The wp-config.php has one or more of these values "WP_CONTENT_DIR, WP_CONTENT_URL, WPCACHEHOME, COOKIE_DOMAIN, WP_SITEURL, WP_HOME, WP_TEMP_DIR" which may cause issues please validate these values by opening the file.
+MEDIA SETTINGS WARNING: The table 'wp_options' has at least one the following values ['upload_url_path','upload_path'] set please validate settings. These settings can be changed in the wp-admin by going to Settings->Media area see 'Uploading Files'
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 07:37:19 - TOTAL RUNTIME: 1.2975 sec.
+********************************************************************************
